@@ -1,31 +1,30 @@
-# Tiny Business — Full Game
+# Tiny Business — Full Game V2
 
-This is the full playable browser game version, not a static demo.
+This update fixes the early-game progression bug and adds synthesized button-click audio.
 
-## Core gameplay
-- 10 businesses with increasing costs and payouts
-- Manual production cycles
-- Manager automation
-- Buy ×1 / ×10 / ×100 / MAX
-- Ownership milestones
-- Upgrade system
-- Investor prestige/reset system
-- Achievements with claimable Business Tickets
-- Persistent Store upgrades
-- Random timed bonus events
-- Local autosave
-- Offline earnings
-- Export/import save codes
-- Responsive desktop/mobile UI
+## Fixes
+- Buy buttons now become enabled immediately after a business cycle pays out.
+- ×1, ×10, ×100 and MAX affordability are recalculated correctly.
+- MAX now shows exactly how many businesses are affordable.
+- Manager and upgrade affordability also refreshes when income arrives.
 
-## Files
-Upload these to the root of a GitHub repository:
-- `index.html`
-- `style.css`
-- `game.js`
-- `README.md`
+## Audio
+- Every enabled button click plays a short satisfying synthesized UI click.
+- Successful purchases/hiring/achievement claims also play a subtle confirmation chime.
+- Sound can be turned on/off from the footer.
+- No external audio files are required.
 
-Then enable GitHub Pages from the `main` branch and `/ (root)`.
-
-## Notes
-The visual direction uses an original classic idle-game board layout: muted background, paper navigation tabs, circular business icons, green income headers, and orange/yellow purchase controls.
+## Main systems
+- 10 businesses
+- manual production
+- manager automation
+- ×1 / ×10 / ×100 / MAX buying
+- milestones
+- upgrades
+- achievements + Business Tickets
+- persistent Store bonuses
+- investor prestige
+- random timed events
+- autosave
+- offline earnings
+- import/export save codes
