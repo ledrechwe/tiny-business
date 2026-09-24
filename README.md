@@ -28,3 +28,10 @@ This update fixes the early-game progression bug and adds synthesized button-cli
 - autosave
 - offline earnings
 - import/export save codes
+
+
+## V3 responsiveness update
+- Manual Run Cycle buttons re-enable immediately when a cycle finishes.
+- Removed the extra UI delay after a completed run.
+- Run Cycle buttons fade down when clicked and fade back toward full brightness as production finishes.
+- Added a quick ready flash when the next manual cycle becomes available.
